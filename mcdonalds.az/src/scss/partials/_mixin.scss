@@ -1,0 +1,11 @@
+@mixin Flexible($item,$jus){
+    display: flex;
+    align-items:$item ;
+    justify-content: $jus;
+    
+}
+@mixin Footer($items,$gap){
+    display: flex;
+    align-items: $items;
+    gap: $gap;
+}

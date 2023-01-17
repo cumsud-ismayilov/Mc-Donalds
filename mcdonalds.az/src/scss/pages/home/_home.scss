@@ -1,0 +1,183 @@
+ #component {
+    .container {
+        .row {
+            .mac-item {
+                position: relative;
+                margin-left: 41px;
+
+                .bg-image {
+                    img {
+                        object-fit: cover;
+                        object-position: center;
+                    }
+                }
+
+                .headline {
+                    width: 24.5rem;
+                    background-color:$bg-color;
+                    box-shadow: 0 0.09375rem 0.09375rem 0 rgb(0 0 0 / 8%);
+                    position: absolute;
+                    left: 6px;
+                    bottom: -5px;
+                    margin: $margin;
+                    padding:$padding;
+                    border-radius: $br-radius;
+
+                    h2 {
+                        line-height: $line-hgt;
+                        font-size: $fnt-size;
+                        font-weight: $fnt-wght;
+                        color: $color;
+                        height: $height
+                    }
+                }
+
+                button {
+                    padding: 0.75rem 0.8125rem;
+                    margin: 0.875rem 1.8125rem 1.5625rem 0;
+                    min-width: 8.4375rem;
+                    cursor: pointer;
+                    border: none;
+                    background-color: $bg-clr1;
+                    color: #292929;
+                    border-radius: $br-radius;
+                }
+            }
+        }
+    }
+}
+
+#publication {
+    .container {
+        .row {
+            .publication-img {
+                width: 100%;
+                text-align: right;
+
+                img {
+                    width: 685px;
+                    height: 300px;
+                }
+            }
+
+            .public-body {
+
+                width: 79%;
+
+                .public-text {
+                    h2 {
+                        font-size: $fnt-size;
+                        font-weight: $fnt-wght;
+                        color: $color;
+                        line-height: 1.2;
+                    }
+
+                    p {
+                        margin-top: 1.125rem;
+                        font-weight: 400;
+                        line-height: 1.42857143;
+                    }
+                }
+
+                button {
+                    background: #ffbc0d;
+                    color: #292929;
+                    min-width: 11.125rem;
+                    min-height: 3rem;
+                    border: none;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}
+
+#publication1 {
+    .container {
+        width: 79%;
+
+        .row {
+            .publication-img {
+                width: 100%;
+                text-align: right;
+
+                img {
+                    width: 685px;
+                    height: 300px;
+                }
+            }
+
+            .public-body {
+
+                width: 79%;
+
+                .public-text {
+                    h2 {
+                        font-size: 2.25rem;
+                        font-weight: bold;
+                        color: #292929;
+                        line-height: 1.2;
+                    }
+
+                    p {
+                        margin-top: 1.125rem;
+                        font-weight: 400;
+                        line-height: 1.42857143;
+                    }
+                }
+
+                button {
+                    background: #ffbc0d;
+                    color: #292929;
+                    min-width: 11.125rem;
+                    min-height: 3rem;
+                    border: none;
+                    border-radius: 5px;
+                }
+            }
+        }
+    }
+}
+
+#banner {
+    .container {
+        .row {
+            .banner-item {
+                max-width: 90%;
+
+                .banner-img {
+                    img {
+                        width: 100%;
+                    }
+                }
+
+                .banner-text {
+                    text-align: left;
+                    h2 {
+                        font-size: 2.25rem;
+                        line-height: 1.2;
+                        font-weight: bold;
+                        color: #292929;
+                        margin-top: 0.9375rem;
+                    }
+
+                    p {
+                        margin-top: 1.125rem;
+                        font-weight: 400;
+                        line-height: 1.4;
+                    }
+                }
+
+                button {
+                    margin-top: 1rem;
+                    background: #ffbc0d;
+                    color: #292929;
+                    min-width: 11.125rem;
+                    min-height: 3rem;
+                    border: none;
+                    border-radius: 11px;
+                }
+            }
+        }
+    }
+}

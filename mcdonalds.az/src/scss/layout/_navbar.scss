@@ -1,0 +1,85 @@
+.page-head {
+    background-color: #fff;
+    box-shadow: 0 0.0625rem 0.5rem 0 rgb(0 0 0 / 4%), 0 0.0625rem 0.3125rem 0 rgb(0 0 0 / 4%);
+
+    .container {
+        .row {
+            .mac-image {
+                img {
+                    margin: 13px 23px;
+                    cursor: pointer;
+                }
+            }
+
+            .secondary-links {
+                width: 87%;
+                position: relative;
+                display: flex;
+                align-items: normal;
+                justify-content: start;
+                margin-top: 1rem;
+
+
+                .link {
+                    ul {
+                        display: flex;
+                        list-style: none;
+                        gap: 30px;
+
+                        li {
+                            color: #292929;
+                            font-size: .875rem;
+                            cursor: pointer;
+
+                            button {
+                                position: absolute;
+                                right: 0;
+                                top: -10px;
+                                background: #ffbc0d;
+                                color: #292929;
+                                border-radius: 0.25rem;
+                                border: none;
+                                font-size: 1rem;
+                                cursor: pointer;
+                                padding: 10px 22px;
+                            }
+                        }
+                    }
+                }
+
+                // .order-btn {
+                //     button {
+                //         background: #ffbc0d;
+                //         color: #292929;
+                //         border-radius: 0.25rem;
+                //         border: none;
+                //         font-size: 1rem;
+                //         cursor: pointer;
+                //         padding: 10px 22px;
+                //     }
+                // }
+            }
+
+            .primary-links {
+
+                width: 82%;
+
+                ul {
+                    list-style: none;
+                    display: flex;
+                    align-items: center;
+                    gap: 30px;
+                    margin-top: 0.8rem;
+
+                    li {
+                        line-height: 1.375rem;
+                        padding-right: 1.5625rem;
+                        color: #292929;
+                        font-size: 18px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+}
